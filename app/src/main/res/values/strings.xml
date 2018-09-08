@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MaktabProjectWorldCupApp</string>
+
+    <string name="phone_number">شماره تلفن همراه</string>
+    <string name="password">رمز عبور</string>
+    <string name="remember_me">مرا به خاطر بسپار</string>
+    <string name="login">ورود</string>
+    <string name="register">ثبت نام</string>
+    <string name="choose_photo">انتخاب عکس</string>
+    <string name="repeat_password">تکرار رمز عبور</string>
+    <string name="name">نام و نام خانوادگی</string>
+    <string name="admin">کاربر مدیر</string>
+    <string name="back">بازگشت</string>
+    <string name="camera">دوربین</string>
+    <string name="gallery">گالری</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="account_page">حساب کاربری</string>
+    <string name="survey">نظرسنجی</string>
+    <string name="chat_room">اتاق گفت و گوی آنلاین</string>
+    <string name="photo_album">آلبوم عکس های هواداری</string>
+    <string name="radio">رادیو برنامه</string>
+    <string name="world_cup">جام جهانی</string>
+    <string name="upload_photo">بارگذاری عکس</string>
+    <string name="file_chooser">انتخاب فایل</string>
+    <string name="upload_file">بارگذاری فایل</string>
+    <string name="results">نتایچ</string>
+    <string name="ad_survey">اضافه کردن نظرسنجی</string>
+    <string name="question_text">متن سوال</string>
+    <string name="add_new_option">اضافه کردن گزینه جدید</string>
+    <string name="add">ثبت</string>
+    <string name="option_text">متن گزینه</string>
+    <string name="delete">حذف</string>
+    <string name="add_chat_room">اضافه کردن اتاق گفت و گو</string>
+    <string name="chat_room_title">عنوان اتاق گفت و گو</string>
+    <string name="chat_text">متن پیام</string>
+    <string name="upload_audio">بارگذاری صدا</string>
+    <string name="user_info">اطلاعات حساب کاربری</string>
+    <string name="invite_friends">دعوت دوستان</string>
+    <string name="log_out">خروج از حساب کاربری</string>
+    <string name="change_photo">تغییر عکس</string>
+    <string name="edit">ثبت تغییرات</string>
+</resources>

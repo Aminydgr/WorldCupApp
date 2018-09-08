@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amin.maktabprojectworldcupapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login.LoginActivity"
+            android:label="ورود به حساب کاربری">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingleFragmentActivity" />
+        <activity android:name=".register.RegisterActivity"
+            android:label="@string/register"/>
+        <activity android:name=".home.HomeActivity"
+            android:label="اپلیکیشن طرفداری"/>
+        <activity android:name=".photoAlbum.PhotoAlbumActivity"
+            android:label="آلبوم عکس های هواداری"/>
+        <activity android:name=".photoAlbum.uploadPhoto.UploadPhotoActivity"
+            android:label="بارگذاری عکس"/>
+        <activity android:name=".radio.RadioActivity" />
+        <activity android:name=".radio.uploadAudio.UploadAudioActivity" />
+        <activity android:name=".survey.SurveyPagerActivity"
+            android:label="نظرسنجی"/>
+        <activity android:name=".survey.addSurvey.AddSurveyActivity"
+            android:label="ساخت نظرسنجی"/>
+        <activity android:name=".chatRoom.ChatListActivity"
+            android:label="@string/chat_room"/>
+        <activity android:name=".chatRoom.chat.ChatActivity"
+            android:label="@string/chat_room"/>
+        <activity android:name=".profile.ProfileActivity"
+            android:label="حساب کاربری"/>
+        <activity android:name=".profile.editUser.EditUserActivity"
+            android:label="اطلاعات حساب کاربری"/>
+    </application>
+
+</manifest>
